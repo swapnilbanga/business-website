@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Awesome Tees!</title>
+	<link rel="stylesheet" type="text/css" href="css/business.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+	<script
+ 	 src="https://code.jquery.com/jquery-3.1.1.min.js"
+ 	 integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+ 	 crossorigin="anonymous">
+  	</script>
+	<meta charset="UTF-8">
+	<style>
+	@media (max-width: 900px) {
+	.col-4 {
+		width: 50%;
+		float: none;
+		}
+	h1, h2 {
+		text-align: left;
+		margin-left: 50px;
+	}
+	h1 {
+		font-size: 40px;
+	}
+	h2 {
+		font-size: 20px;
+	}
+	p {
+		font-size: 16px;
+		height: 20px;
+	}
+	}
+	</style>
+</head>
+<body>
+	<h1>Awesome tees</h1>
+	<h2>At unbelievable prices!</h2>
+	<div class="grid">
+		<div class="row">
+			<div class="first col-4">
+					<p>Friends <span class="price">$14</span><br /><small>Mustard sierra leone bologi kale chard beet greens black-eyed pea sorrel amaranth garlic tigernut spring onion summer purslane asparagus lentil. </small></p>
+			</div>
+			<div class="second col-4">
+					<p>Avengers <span class="price">$18</span><br /><small>Mustard sierra leone bologi kale chard beet greens black-eyed pea sorrel amaranth garlic tigernut spring onion summer purslane asparagus lentil. </small></p>
+			</div>
+			<div class="third col-4">
+					<p>Harry Potter <span class="price">$10</span><br /><small>Mustard sierra leone bologi kale chard beet greens black-eyed pea sorrel amaranth garlic tigernut spring onion summer purslane asparagus lentil. </small></p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="fourth col-4">
+					<p>Looney Toons <span class="price">$15</span><br /><small>Mustard sierra leone bologi kale chard beet greens black-eyed pea sorrel amaranth garlic tigernut spring onion summer purslane asparagus lentil. </small></p>
+			</div>
+			<div class="fifth col-4">
+					<p>I'll be there <span class="price">$10</span><br /><small>Mustard sierra leone bologi kale chard beet greens black-eyed pea sorrel amaranth garlic tigernut spring onion summer purslane asparagus lentil. </small></p>
+			</div>
+			<div class="sixth col-4">
+					<p>Hulk <span class="price">$12</span><br /><small>Mustard sierra leone bologi kale chard beet greens black-eyed pea sorrel amaranth garlic tigernut spring onion summer purslane asparagus lentil. </small></p>
+			</div>
+		</div>
+	</div>
+	<script>
+  		$('div.col-4').on('click', function() {
+      	$(this).toggleClass('show-description');
+ 		});
+	</script>
+</body>
+</html>
